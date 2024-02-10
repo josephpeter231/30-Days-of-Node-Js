@@ -1,0 +1,22 @@
+/* style.css */
+
+/* Apply styles to the <h1> element */
+h1 {
+    color: blue; /* Change text color to blue */
+    font-family: Arial, sans-serif; /* Set font family */
+  }
+  
+  /* Apply styles to the <p> element */
+  p {
+    font-size: 18px; /* Set font size to 18 pixels */
+    line-height: 1.6; /* Set line height to improve readability */
+  }
+  
+  /* Apply styles to the <img> element */
+  img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: 140px; /* Maintain aspect ratio */
+    display: block; /* Ensure images are displayed as blocks for proper alignment */
+    margin: 20px auto; /* Add margin for spacing */
+  }
+  

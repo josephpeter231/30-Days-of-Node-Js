@@ -8,7 +8,8 @@ const port = 3000;
 mongoose.connect('mongodb+srv://kushalagrawal779:RNefVUcxKhaN0yX2@btecky.ooq3dcb.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-})
+}) 
+
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.error('MongoDB connection error:', err));
 
